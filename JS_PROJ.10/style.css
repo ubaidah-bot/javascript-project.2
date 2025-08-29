@@ -1,0 +1,66 @@
+.container{
+    width: 400px;
+    height: auto;
+    border: 2px solid;
+    padding: 10px 20px;
+    background-color: rgba(255, 234, 167,1.0);
+    margin: 50px auto;
+}
+.expense-tracher{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.expense-tracher h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.expense-tracher button{
+    padding: 10px;
+    background-color: rgba(46, 213, 115,1.0);
+    border: none;
+    color: rgba(255, 255, 255,1.0);
+}
+.expense-tracher button:active{
+    background-color: rgba(255, 234, 167,1.0);
+    border: 2px solid rgba(47, 53, 66,1.0);
+    color: rgba(46, 213, 115,1.0);
+}
+.total-expense{
+    text-align: right;
+}
+.total-expense h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.expense-list{
+    margin-bottom: 20px;
+}
+
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.expense-item-description{
+    font-weight: bold;
+}
+
+.expense-item-amount{
+    font-weight: bold;
+}
+.delete-expense-btn{
+    background-color: chocolate;
+    color: aliceblue;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}

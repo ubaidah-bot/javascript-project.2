@@ -1,0 +1,46 @@
+body{
+    background-color: #00cec9;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    background-color: #74b9ff;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.calculator{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
+.calbtn {
+    display:grid;
+    grid-template-columns: repeat(5, 63px);
+}
+.calbtn button{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    margin: 20px 0px 0px 0px;
+}
+.calbtn button:hover{
+    border: 2px solid #2d3436;
+}
+.calbtn button:active{
+    background-color: #00b894;
+}
+.input input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: right;
+    font-size: 30px;
+}
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h2>Tip Calculator</h2>
+            <div class="input_value">
+                <label for="">Bill Amount</label>
+                <input type="number" id="billAmount" placeholder="Enter the bill amount">
+            </div>
+            <div class="input_value">
+                <label for="">Service Rating</label>
+                <select id="serviceRating">
+                    <option value="1">poor</option>
+                    <option value="2">Avarage</option>
+                    <option value="3">Good</option>
+                    <option value="4">Excilent</option>
+                </select>
+            <div class="input_value">
+                <label for="">Number of People</label>
+                <input type="number" id="peopleCount" placeholder="Enter the number of people">
+            </div>
+            <div class="input_value">
+                <label for="">Meal Type</label>
+                <select id="mealType">
+                    <option value="1">Breakfast</option>
+                    <option value="1">Launch</option>
+                    <option value="1">Dinner</option>
+                </select>
+            </div>
+            <div class="result">
+                <h3>Result:</h3>
+                <div id="tipAmount"></div>
+                <div id="totalAmount"></div>
+                <div id="amountPerson"></div>
+            </div>
+            <button id="Calculate" onclick="calculateTip()">Calculate</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
